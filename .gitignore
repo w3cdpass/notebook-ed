@@ -49,6 +49,14 @@ test/coverage/
 test/output/
 test/test-results.xml
 
+# Virtual environment
+py2nb_env/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
 # Jupyter Notebook
 .ipynb_checkpoints
 
