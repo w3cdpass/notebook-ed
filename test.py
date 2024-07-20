@@ -6,7 +6,6 @@ import time
 import sys
 from colorama import init, Fore
 
-
 # Initialize colorama
 init()
 
@@ -49,9 +48,8 @@ def convert_py_to_ipynb(py_file_path):
         logging.error(f'{Fore.RED}ERROR - Failed to convert {py_file_path} to {ipynb_file_path}: {e}{Fore.RESET}')
 
 def process_directory(root_dir):
-    from .ignoreFIles import ignoreFile
     """Process all .py files in a directory, converting them to .ipynb and deleting the .py files."""
-    ignore_dirs = ignoreFile
+    ignore_dirs = {'.venv', 'venv'}
     for subdir, _, files in os.walk(root_dir):
         if any(ignored in subdir for ignored in ignore_dirs):
             continue
@@ -95,9 +93,13 @@ def show_success_animation(file_path):
     sys.stdout.flush()
 
 def main():
-    
-    from .argumentParser import ArgumentParser
-    args, parser = ArgumentParser()
+    import argparse
+
+    parser = argparse.ArgumentParser(description='Convert .py files to .ipynb and delete the original .py files.')
+    parser.add_argument('-r', '--root_dir', type=str, help='The root directory of your project')
+    parser.add_argument('-f', '--file', type=str, help='Convert a specific .py file to .ipynb')
+    parser.add_argument('--report', action='store_true', help='Report an issue with this tool')
+    args = parser.parse_args()
 
     if args.report:
         report_issue()
