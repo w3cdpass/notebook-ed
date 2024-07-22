@@ -11,6 +11,7 @@ setup(
     },
     install_requires=[
         'nbformat',
+        'colorama'
     ],
     author='w3cdpass',
     author_email='kupasva663@gmail.com',
@@ -20,7 +21,6 @@ setup(
     url='https://github.com/w3cdpass/py2nb.git',
     classifiers=[
         'Programming Language :: Python :: 3',
-        'License :: OSI Approved :: MIT License',
         'Operating System :: OS Independent',
     ],
     python_requires='>=3.6',
