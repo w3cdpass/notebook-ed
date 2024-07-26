@@ -7,7 +7,7 @@ jupyter_core==5.7.2
 nbformat==5.10.4
 platformdirs==4.2.2
 -e git+https://github.com/w3cdpass/py2nb.git@19ab83ea8e09d043ebef2e325a74757a5935484d#egg=py2nb
-pywin32==306
+pywin32
 referencing==0.35.1
 rpds-py==0.19.0
 traitlets==5.14.3
