@@ -29,9 +29,5 @@ classifiers = [
 "Homepage" = "https://github.com/w3cdpass/py2nb"
 "Bug Tracker" = "https://github.com/w3cdpass/py2nb/issues"
 
-[tool.setuptools]
-packages = ["py2nb"]
-
-[tool.setuptools.entry-points.console_scripts]
+[project.scripts]
 py2nb = "py2nb.main:main"
-
