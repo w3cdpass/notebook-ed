@@ -34,3 +34,4 @@ packages = ["py2nb"]
 
 [tool.setuptools.entry-points.console_scripts]
 py2nb = "py2nb.main:main"
+
