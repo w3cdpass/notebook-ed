@@ -30,4 +30,4 @@ classifiers = [
 "Bug Tracker" = "https://github.com/w3cdpass/notebook-ed/issues"
 
 [project.scripts]
-py2nb = "py2nb.main:main"
+py2nb = "notebook_ed.main:main"
