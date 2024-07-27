@@ -18,7 +18,7 @@ setup(
     description='A package to convert .py files to .ipynb and delete the original .py files.',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/w3cdpass/py2nb.git',
+    url='https://github.com/w3cdpass/notebook-ed.git',
     classifiers=[
         'Programming Language :: Python :: 3',
         'Operating System :: OS Independent',
