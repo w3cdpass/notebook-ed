@@ -1,13 +1,14 @@
-# py2nb
+# notebook-ed
 
 A tool to convert `.py` files to `.ipynb` files and delete the original `.py` files. This tool makes it easy to convert Python scripts into Jupyter Notebooks for easy sharing and collaboration.
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?logo=python)
-![Pip Install](https://img.shields.io/badge/pip%20install-notebook-ed-green)
+[![PyPI version](https://img.shields.io/badge/pip%20install-notebook--ed%3D%3D0.1.1-blue)](https://pypi.org/project/notebook-ed/0.1.1/)
+
 
 ## Project Insights
 
-`py2nb` is designed to streamline the process of converting Python scripts into Jupyter Notebooks. It is particularly useful for educators, data scientists, and developers who need to present their Python code in a more interactive format. 
+`notebook-ed` is designed to streamline the process of converting Python scripts into Jupyter Notebooks. It is particularly useful for educators, data scientists, and developers who need to present their Python code in a more interactive format. 
 
 ### Features
 
@@ -18,30 +19,30 @@ A tool to convert `.py` files to `.ipynb` files and delete the original `.py` fi
 
 ## How to Start with Source Code
 
-To start using `py2nb`, follow these steps:
+To start using `notebook-ed`, follow these steps:
 
 1. **Clone the Repository**
 
     ```sh
     git clone https://github.com/w3cdpass/notebook-ed.git
-    cd py2nb
+    cd notebook-ed
     ```
 
 2. **Create a Virtual Environment**
 
     ```sh
-    python -m venv py2nb_env
+    python -m venv notebook_ed_env
     ```
 
 3. **Activate the Virtual Environment**
 
     - On Windows:
         ```sh
-        py2nb_env\Scripts\activate
+        notebook_ed_env\Scripts\activate
         ```
     - On macOS/Linux:
         ```sh
-        source py2nb_env/bin/activate
+        source notebook_ed_env/bin/activate
         ```
 
 4. **Install Dependencies**
@@ -53,13 +54,13 @@ To start using `py2nb`, follow these steps:
 5. **Run the Script**
 
     ```sh
-    python -m py2nb -r <root_directory>  # To convert all .py files in a directory
-    python -m py2nb -f <file_path>       # To convert a single .py file
+    notebook-ed -r <root_directory>  # To convert all .py files in a directory
+    notebook-ed -f <file_path>       # To convert a single .py file
     ```
 
 ## How to Contribute
 
-We welcome contributions to `py2nb`! If you have ideas for improvements or have found bugs, please follow these steps to contribute:
+We welcome contributions to `notebook-ed`! If you have ideas for improvements or have found bugs, please follow these steps to contribute:
 
 1. **Fork the Repository**
 
@@ -68,8 +69,8 @@ We welcome contributions to `py2nb`! If you have ideas for improvements or have 
 2. **Clone Your Fork**
 
     ```sh
-    git clone https://github.com/w3cdpass/notebook-ed.git
-    cd py2nb
+    git clone https://github.com/<your-username>/notebook-ed.git
+    cd notebook-ed
     ```
 
 3. **Create a New Branch**
@@ -97,4 +98,8 @@ We welcome contributions to `py2nb`! If you have ideas for improvements or have 
 
 7. **Create a Pull Request**
 
-    Go to the original repository and create a pull request with a description of your changes.# notebook-ed
+    Go to the original repository and create a pull request with a description of your changes.
+
+## Contact
+
+For any queries, feel free to contact me at [kupasva663@gmail.com](mailto:kupasva663@gmail.com).

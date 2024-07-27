@@ -9,7 +9,7 @@ description = "A tool to convert .py files to .ipynb"
 readme = "README.md"
 requires-python = ">=3.7"
 dependencies = ["nbformat", "colorama"]
-license = {text = "https://github.com/w3cdpass/notebook-ed/blob/main/LICENSE"}
+license = {urls = "https://github.com/w3cdpass/notebook-ed/blob/main/LICENSE"}
 authors = [
     {name = "w3cdpass", email = "kupasva663@gmail.com"}
 ]
