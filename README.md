@@ -2,8 +2,11 @@
 
 A tool to convert `.py` files to `.ipynb` files and delete the original `.py` files. This tool makes it easy to convert Python scripts into Jupyter Notebooks for easy sharing and collaboration.
 
+If you find `notebook-ed` useful, please consider giving it a star on GitHub! Your support helps me to continue developing and improving this tool.
+
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?logo=python)
 [![PyPI version](https://img.shields.io/badge/pip%20install-notebook--ed%3D%3D0.1.2-blue)](https://pypi.org/project/notebook-ed/0.1.2/)
+[![GitHub stars](https://img.shields.io/github/stars/w3cdpass/notebook-ed?style=social)](https://github.com/w3cdpass/notebook-ed/stargazers)
 
 ## Project Insights
 
