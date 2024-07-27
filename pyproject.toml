@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "notebook-ed"
-version = "0.1.0"
+version = "0.1.1"
 description = "A tool to convert .py files to .ipynb"
 readme = "README.md"
 requires-python = ">=3.7"
@@ -30,4 +30,4 @@ classifiers = [
 "Bug Tracker" = "https://github.com/w3cdpass/notebook-ed/issues"
 
 [project.scripts]
-py2nb = "notebook_ed.main:main"
+notebook-ed = "notebook_ed.converter:main"

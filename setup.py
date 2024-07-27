@@ -2,11 +2,11 @@ from setuptools import setup, find_packages
 
 setup(
     name='notebook-ed',
-    version='0.1.0',
+    version='0.1.1',
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'py2nb=py2nb.converter:main',
+            'notebook-ed=notebook_ed.converter:main',
         ],
     },
     install_requires=[
