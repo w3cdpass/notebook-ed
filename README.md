@@ -3,7 +3,7 @@
 A tool to convert `.py` files to `.ipynb` files and delete the original `.py` files. This tool makes it easy to convert Python scripts into Jupyter Notebooks for easy sharing and collaboration.
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?logo=python)
-![Pip Install](https://img.shields.io/badge/pip%20install-py2nb-green)
+![Pip Install](https://img.shields.io/badge/pip%20install-notebook-ed-green)
 
 ## Project Insights
 
@@ -23,7 +23,7 @@ To start using `py2nb`, follow these steps:
 1. **Clone the Repository**
 
     ```sh
-    git clone https://github.com/yourusername/py2nb.git
+    git clone https://github.com/w3cdpass/notebook-ed.git
     cd py2nb
     ```
 
@@ -68,7 +68,7 @@ We welcome contributions to `py2nb`! If you have ideas for improvements or have 
 2. **Clone Your Fork**
 
     ```sh
-    git clone https://github.com/w3cdpass/py2nb.git
+    git clone https://github.com/w3cdpass/notebook-ed.git
     cd py2nb
     ```
 
