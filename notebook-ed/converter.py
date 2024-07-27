@@ -72,7 +72,7 @@ def convert_single_file(file_path):
 
 def report_issue():
     """Print instructions for reporting an issue."""
-    print("To report an issue, please visit: https://github.com/w3cdpass/py2nb/issues")
+    print("To report an issue, please visit: https://github.com/w3cdpass/notebook-ed/issues")
 
 def show_animation(count):
     """Show ASCII animation while converting."""
