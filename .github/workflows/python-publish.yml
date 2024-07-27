@@ -25,7 +25,7 @@ jobs:
           
       - name: Run tests
         run: |
-          python -m unittest discover -s py2nb/test
+          python -m unittest discover -s notebook_ed/test
       - name: Build package
         run: |
           python -m pip install --upgrade build
