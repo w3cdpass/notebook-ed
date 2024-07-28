@@ -1,6 +1,6 @@
 import unittest
 import os
-from py2nb import delete_file, convert_py_to_ipynb, process_directory
+from notebook_ed import delete_file, convert_py_to_ipynb, process_directory
 
 class TestConverter(unittest.TestCase):
 
