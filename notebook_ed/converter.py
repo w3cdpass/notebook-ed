@@ -78,6 +78,8 @@ def show_animation(count):
     """Show ASCII animation while converting."""
     frames = [
         f"{Fore.GREEN}•{Fore.RED}•{Fore.GREEN}  •",
+
+=======
         # f"{Fore.GREEN}• {Fore.GREEN}•{Fore.GREEN} •",
         f"{Fore.GREEN}• {Fore.RED}•{Fore.GREEN} •",
         f"{Fore.GREEN}•{Fore.GREEN} •{Fore.GREEN} •",
@@ -95,7 +97,7 @@ def show_success_animation(file_path):
     sys.stdout.flush()
 
 def main():
-    
+
     from .argumentParser import ArgumentParser
     args, parser = ArgumentParser()
 
