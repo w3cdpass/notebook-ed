@@ -5,7 +5,7 @@ A tool to convert `.py` files to `.ipynb` files and delete the original `.py` fi
 If you find `notebook-ed` useful, please consider giving it a star on GitHub! Your support helps me to continue developing and improving this tool.
 
 ![Python](https://img.shields.io/badge/python-v3.8+-blue.svg?logo=python)
-[![PyPI version](https://img.shields.io/badge/pip%20install-notebook--ed%3D%3D0.1.3-blue)](https://pypi.org/project/notebook-ed/0.1.2/)
+[![PyPI version](https://img.shields.io/badge/pip%20install-notebook-blue)](https://pypi.org/project/notebook-ed/)
 [![GitHub stars](https://img.shields.io/github/stars/w3cdpass/notebook-ed?style=social)](https://github.com/w3cdpass/notebook-ed/stargazers)
 
 ## Project Insights
